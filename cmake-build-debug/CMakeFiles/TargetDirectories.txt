@@ -1,0 +1,3 @@
+/Users/lsf/Code/cpp/cpp-primer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lsf/Code/cpp/cpp-primer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lsf/Code/cpp/cpp-primer/cmake-build-debug/CMakeFiles/cpp_primer.dir

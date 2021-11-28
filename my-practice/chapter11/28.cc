@@ -1,0 +1,17 @@
+#include <algorithm>
+#include <vector>
+#include <iostream>
+#include <list>
+#include <string>
+#include <map>
+#include <set>
+#include <utility>
+#include "../include/print_vec.hpp"
+
+using namespace std;
+int main(int argc, char *argv[])
+{   
+    map<string, vector<int>> mv;
+    map<string, vector<int>>::iterator iter = mv.find("1");
+    return 0;
+}
