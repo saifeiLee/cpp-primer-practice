@@ -27,6 +27,8 @@ public:
         cout << "bookNo: " << bookNo << " price: " << price;
         return cout;
     }
+    virtual Quote *clone() const & { return new Quote(*this); }
+    virtual Quote *clone() && { return new Quote(std::move(*this)); }
 
 private:
     string bookNo;
@@ -44,6 +46,9 @@ public:
     {
     }
     double net_price(size_t n) const override;
+
+    virtual Bulk_quote *clone() const & { return new Bulk_quote(*this); }
+    virtual Bulk_quote *clone() && { return new Bulk_quote(std::move(*this)); }
 
 private:
     size_t min_qty = 0;

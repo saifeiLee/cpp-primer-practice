@@ -1,0 +1,10 @@
+WordQuery
+Query
+WordQuery
+Query
+WordQuery
+Query
+BinaryQuery
+AndQuery
+BinaryQuery
+OrQuery
